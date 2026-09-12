@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "braillebasefrench"
+version = "0.2.9"
+description = "A complete and extensible Unicode Braille processing library. French language version."
+authors = [
+    { name = "Nagao Yuji" }
+]
+readme = "README.md"
+license = { text = "Apache-2.0" }
+requires-python = ">=3.6"
+
+dependencies = [
+    "braillebase>=0.2.9"
+]
+
+keywords = ["braille", "unicode", "accessibility", "API", "binary", "blind", "education"]
+
+[project.urls]
+Homepage = "https://github.com/DukaCrazy/braillebasefrench"
+Documentation = "https://github.com/DukaCrazy/braillebasefrench"
+Source = "https://github.com/DukaCrazy/braillebasefrench"
